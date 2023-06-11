@@ -1,7 +1,7 @@
 # Split string by marker
 
-# Given a string str and another string marker, 
-# the method split_string should split the string str with marker and return the array that's generated.
+# Given a string str and another string marker.
+# The method split_string should split the string str with marker and return the array that's generated.
 
 # Note: if value of marker is not provided, split_string should return str split by " ".
 
