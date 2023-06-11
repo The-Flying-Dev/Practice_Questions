@@ -6,16 +6,12 @@
 
 
 def add(x, y)
-  # write your code here
-  
-    if x.class != Integer && y.class != Integer 
-      "Invalid Input"
-    elsif x.class != Integer || y.class != Integer 
-      "Invalid Input"
-    else 
-      x + y
-    end
 
+    # write your code here
+    return x + y if (x.is_a? Numeric) && (y.is_a? Numeric)
+
+    'Invalid Input'
+    
 end
 
 
